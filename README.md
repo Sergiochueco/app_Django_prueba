@@ -109,6 +109,6 @@ De ahora en adelante el contenido dependerá del proyecto a realizar para ello t
 :bell: :hammer_and_wrench: En construcción, se irá actualizando este repo para tener el proyecto completo y lo puedas descargar como guía.
 
 
-¡Cualquier sugerencia o cambio puedes escribirme en el correo[Sergio Chueco](mailto:sergiochuecomedina@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)!
+¡Cualquier sugerencia o cambio puedes escribirme en el correo [sergiochuecomedina@gmail](mailto:sergiochuecomedina@gmail.com?subject=[GitHub]%20Buenas%20Sergio)!
 
 
