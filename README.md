@@ -16,3 +16,12 @@ Por ejemplo:
 
 ![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_ve.png)
 
+**pip freeze** lo utilizamos para comprobar que dependencias tenemos instaladas en nuestro entorno. Si es la primera vez que lo creamos debería de estar vacío
+
+Siguiente paso es instalar Django desde nuestra terminal de git bash donde estamos trabajando:
+
+>[!NOTE]
+> Al instalar las dependencias con las que queremos trabajar deberemos tener activado nuestro entorno virtual.
+
+<pre><code>pip install Django</code></pre>
+
