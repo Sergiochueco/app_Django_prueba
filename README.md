@@ -11,4 +11,4 @@ Después debemos activar el entorno, para ello debemos estar en la carpeta gener
 > Por ejemplo: source E_1/Scripts/activate
 
 ![Screenshot create and activate virtual environment]
-(https://raw.githubusercontent.com/Sergiochueco/app_Django_prueba/main/img/create_activate_VE.PNG)
+(https://raw.githubusercontent.com/Sergiochueco/app_Django_prueba/main/assets/create_activate_VE.PNG)
