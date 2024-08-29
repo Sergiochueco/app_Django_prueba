@@ -25,3 +25,18 @@ Siguiente paso es instalar Django desde nuestra terminal de git bash donde estam
 
 <pre><code>pip install Django</code></pre>
 
+![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/install_Django.PNG)
+
+Comprobamos las dependencias que tenemos instaladas:
+
+<pre><code>pip freeze</code></pre>
+
+![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/pip freze.PNG)
+
+
+Si queremos salir de nuestro entorno virtual, simplemente utilizamos el siguiente comando:
+
+
+<pre><code>deactivate</code></pre>
+
+![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/deactivate.PNG)
