@@ -40,3 +40,20 @@ Si queremos salir de nuestro entorno virtual, simplemente utilizamos el siguient
 <pre><code>deactivate</code></pre>
 
 ![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/deactivate.PNG)
+
+
+
+Una vez tenemos inicializado todo esto, ya podemos pasar al siguiente paso, inicializar el proyecto de Django. Para ello en mi caso he creado las carpetas de **src**, dentro de ella **proyecto** y he navegado hasta ella con el comando:
+
+<pre><code>mkdir src</code></pre>
+<pre><code>cd src</code></pre>
+<pre><code>mkdir proyecto</code></pre>
+<pre><code>cd src</code></pre>
+
+
+Una vez dentro de está última, escribimos la siguiente línea para empezar el proyecto:
+
+<pre><code> django-admin startproject proyecto </code></pre>
+
+Lo que escribímos después de **startproject** es el nombre de otra carpeta que se creará con la inicialización del proyecto dentro
+
