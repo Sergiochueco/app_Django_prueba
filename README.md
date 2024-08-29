@@ -15,5 +15,5 @@ Por ejemplo:
 <pre><code>source E_1/Scripts/activate</code></pre>
 
 ![Screenshot create and activate virtual environment]
-(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)
+![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_ve.png)
 
