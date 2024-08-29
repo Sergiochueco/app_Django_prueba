@@ -12,3 +12,6 @@ Después debemos activar el entorno, para ello debemos estar en la carpeta gener
 
 ![Screenshot create and activate virtual environment]
 (https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)
+
+
+<span>![</span><span>Create and Activate Virtual envirionment</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG</span><span>)</span>
