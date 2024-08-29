@@ -31,7 +31,7 @@ Comprobamos las dependencias que tenemos instaladas:
 
 <pre><code>pip freeze</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/pip freze.PNG)
+![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/pip freeze.PNG)
 
 
 Si queremos salir de nuestro entorno virtual, simplemente utilizamos el siguiente comando:
