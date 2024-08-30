@@ -1,3 +1,5 @@
+# Crear y activar entorno virtual
+
 Primero de todo debemos crear un entorno virtual para instalar nuestros paquetes independientemente de los que podamos tener en nuestro sistema, para ello utilizaremos el siguiente comando en la consola de git bash:
 
 > python -m env "nombre del entorno" 
@@ -14,7 +16,9 @@ Por ejemplo:
 
 <pre><code>source E_1/Scripts/activate</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_ve.png)
+![(create_activate_virtual_environment)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_ve.png)
+
+# Ver las dependencias/librerías o paquetes instalados en el entorno
 
 **pip freeze** lo utilizamos para comprobar que dependencias tenemos instaladas en nuestro entorno. Si es la primera vez que lo creamos debería de estar vacío
 
@@ -25,21 +29,23 @@ Siguiente paso es instalar Django desde nuestra terminal de git bash donde estam
 
 <pre><code>pip install Django</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/install_Django.PNG)
+![(install Django)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/install_Django.PNG)
 
 Comprobamos las dependencias que tenemos instaladas:
 
 <pre><code>pip freeze</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/pip_freeze.PNG)
+![(pip_freeze)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/pip_freeze.PNG)
 
+
+# Desactivar entorno virtual
 
 Si queremos salir de nuestro entorno virtual, simplemente utilizamos el siguiente comando:
 
 
 <pre><code>deactivate</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/deactivate.PNG)
+![(deactivate virtual environment)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/deactivate.PNG)
 
 
 
@@ -47,6 +53,9 @@ Una vez tenemos inicializado todo esto, ya podemos pasar al siguiente paso, inic
 
 <pre><code>mkdir src</code></pre>
 <pre><code>cd src</code></pre>
+
+
+# Inicializar proyecto
 
 Una vez dentro de está última, escribimos la siguiente línea para empezar el proyecto:
 
@@ -56,6 +65,8 @@ Lo que escribímos después de **startproject** es el nombre de otra carpeta que
 
 Volvemos a navegar hasta esta nueva carpeta que hemos creado al inciar el proyecto y entonces corremos el servidor para crear una BBDD sqlite3 y poder ver nuestro proyecto ya en un servidor local.
 
+## Correr el servidor en local
+
 <pre><code> python manage.py runserver </code></pre>
 
 Si queremos poder acceder como administradores será importante que corramos el comando **migrate**:
@@ -64,7 +75,9 @@ Si queremos poder acceder como administradores será importante que corramos el 
 
 Volveríamos a correr el servidor y entonces deberíamos ver la siguiente pantalla:
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/interfaz_admin.PNG)
+![(admin_interface)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/interfaz_admin.PNG)
+
+# Creacion del usuario administrador del proyecto
 
 Una vez aquí para obtener las credenciales para poder acceder, desde la consola crearemos el primer usuario:
 
@@ -80,11 +93,15 @@ La solución sería copiar este código en la consola:
 
 <pre><code>winpty python manage.py createsuperuser</code></pre>
 
-![(https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/create_activate_VE.PNG)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/superuser.PNG)
+![(create superuser)](https://github.com/Sergiochueco/app_Django_prueba/blob/main/assets/superuser.PNG)
+
 
 Donde introducirás tu usuario que será el administrador y la contraseña. No te preocupes si no ves que la contraseña va marcando los carácteres, es normal. Vas escribiendo pero en pantalla sale como si no estuvieras escribiendo nada. No te preocupes, escribe tu contraseña, dale a ENTER y te volverá a pedir la confirmación de esta.
 
 Después de esto deberemos volver a correr el servidor como he comentado anteriormente para ver los cambios y poder acceder.
+
+
+# Crear app
 
 Una vez llegado hasta aquí deberemos crear la app donde vamos a crear nuestro proyecto. Para ello debemo escribir en consola el siguiente comando:
 
